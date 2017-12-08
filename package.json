@@ -5,8 +5,6 @@
   "main": "dist/index.js",
   "typings": "index.d.ts",
   "scripts": {
-    "postinstall": "babel src -d dist",
-    "prepublish": "babel src -d dist",
     "test": "nyc ava",
     "cover": "nyc report --reporter=lcov --reporter=html",
     "start": "webpack-dev-server",
